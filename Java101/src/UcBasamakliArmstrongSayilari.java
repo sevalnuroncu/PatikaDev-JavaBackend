@@ -10,7 +10,7 @@ public class UcBasamakliArmstrongSayilari {
             tempNumber=number;
             while(tempNumber!=0){
                 tempNumber/=10;
-                basNumber++;
+                basNumber++;//we can say directly 3 to basNumber. But I wanted to calculate.
             }
             tempNumber=number;
             while(tempNumber!=0){
